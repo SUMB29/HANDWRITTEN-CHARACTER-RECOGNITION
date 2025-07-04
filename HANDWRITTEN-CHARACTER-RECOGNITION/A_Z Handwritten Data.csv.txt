@@ -1,0 +1,13 @@
+(From Kaggle)
+visit https://www.kaggle.com/sachinpatel21/az-handwritten-alphabets-in-csv-format  
+to download 'A_Z Handwritten Data.csv'
+
+OR, 
+(Run this code)
+
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("sachinpatel21/az-handwritten-alphabets-in-csv-format")
+
+print("Path to dataset files:", path)
